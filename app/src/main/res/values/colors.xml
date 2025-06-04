@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="textColor">#000000</color>
+    <color name="cell_border_color">#000000</color> <!-- Black for light mode -->
+    <color name="calendar_border_color">#000000</color> <!-- Black for light mode -->
+    <!-- Calendar-specific colors (Light Mode) -->
+    <color name="calendar_background_default">#FFFFFFFF</color> <!-- Default cell background (white) -->
+    <color name="calendar_text_default">#FF000000</color> <!-- Default text color (black) -->
+    <color name="calendar_header_background">#FFD3D3D3</color> <!-- Weekday header background (light gray) -->
+    <color name="calendar_selected_background">#ADD8E6</color> <!-- Selected day background (light blue) -->
+    <color name="calendar_current_background">#FFFF00</color> <!-- Current day background (yellow) -->
+    <color name="calendar_important_background">#FFB6C1</color> <!-- Important task background (light red) -->
+    <color name="calendar_deadline_background">#90EE90</color> <!-- Deadline task background (light green) -->
+    <color name="calendar_readable_text">#FF000000</color> <!-- Readable text color on light backgrounds (black) -->
+</resources>

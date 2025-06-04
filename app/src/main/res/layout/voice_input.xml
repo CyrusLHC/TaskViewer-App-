@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <!-- 语音输入结果显示区域 -->
+    <EditText
+        android:id="@+id/voiceInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:hint="Voice input will be displayed here..."
+        android:background="@android:color/white"
+        android:padding="8dp"
+        android:enabled="true"/>
+
+    <!-- Double-check checkbox -->
+    <CheckBox
+        android:id="@+id/checkBoxDoubleCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/voiceInputText"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        android:text="Double-check before saving" />
+
+    <!-- 录音按钮 -->
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkBoxDoubleCheck"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Start Recording"
+        android:padding="16dp"/>
+
+    <!-- 取消按钮 -->
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recordButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp"
+        android:text="Cancel"/>
+
+    <!-- 保存按钮 (renamed to Add for consistency) -->
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/recordButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:text="Add"/>
+
+    <!-- 进度条 -->
+    <ProgressBar
+        android:id="@+id/progressBarLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+</RelativeLayout>
